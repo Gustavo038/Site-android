@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap')
+
+/*
+#83E1AD
+#3DDC84
+#2FA866
+#1A5C37
+#063D1E
+*/
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+:root{
+   --cor0: black;
+   --cor1: #83E1AD;
+   --cor2: #3DDC84;
+   --cor3: #2FA866;
+   --cor4: #1A5C37;
+   --cor5: #063D1E;
+
+   --fonte-padrão: Arial, verdana, helvetica, sans-serif;
+   --fonte-destaque: "bebas Neue", cursive;
+
+}
+body{
+background-color: var(--cor0);
+font-family: var(--fonte-padrão);
+}
+p{
+    padding: 15px 0px;
+}
+
+header{
+    background-color: var(--cor4);
+    min-height: 150px;
+    text-align: center;
+    padding-top: 30px;
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5 ));
+}
